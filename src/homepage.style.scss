@@ -1,0 +1,39 @@
+.homepage{
+    margin: 1em;
+    padding: 1rem;
+}
+
+.directory-menu{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item{
+    min-width: 30%;
+    height: 240px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+    margin: 4px;
+}
+
+.content{
+    height: 90px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom:6px ;
+    font-size: 22px;
+    color: #4a4a4a;
+}
